@@ -1,0 +1,2 @@
+Cài đặt tên : git config --global user.name “Tai Tran” 
+và Email: git config --global user. email “[tranptaiqc@gmail.com]”
