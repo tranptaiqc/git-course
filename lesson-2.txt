@@ -1,0 +1,49 @@
+1. Giải thích các câu lệnh: git init, git add <file_name>, git add ., git commit -m "message"
+
+git init =>  sẽ ở vùng working directory 
+Nơi tạo file chỉnh sửa file -> Có chữ U 
+
+git add <file_name> =>  sẽ add file vào Staging area - Trạng thái chờ commit 
+Tạo ra bảng copy từ vùng working directory
+
+git add . => sẽ add toàn bộ file thuộc thư mục hiện tại và các thư mục con.
+
+git commit -m "message" => ghi lại lịch sử những lần update 
+Vùng này là Repository 
+
+
+2. Hãy tưởng tượng có 1 folder lesson-2 mới được tạo. Hãy liệt kê các file theo từng vùng sau khi thao tác một loạt các lệnh sau (sẽ rất tuyệt nếu bạn không chạy lệnh trên máy thật, mà bạn suy nghĩ trong đầu để ra được kết quả; bạn sẽ nhớ rất lâu đấy ^^):
+
+Right click vào folder lesson-2 -> chọn terminal 
+Git init : working directory
+
+Git add . : Staging area
+lesson-2 được tạo copy từ working directory 
+
+Git commit -m"lesson-2" : Repository
+lesson-2 được commit và lesson-2 sẽ không còn ở Staging area
+
+
+
+
+
+a. Tạo 3 file: file1, file2, file3
+3 file này được tạo chỉ đang nằm trên máy không có nằm trong Git - three states
+
+b. Chạy lệnh: git init
+3 file này đang ở Working Directory
+
+c. Chạy lệnh: git commit -m”init project”
+Chưa có file nào được commit
+Chỉ commit status ”init project” vào history trên Git
+
+d. Chạy lệnh: git add file1
+Add file1 vào Staging area
+File này copy từ máy
+
+e. Chạy lệnh: git commit -m”add file1”
+Add file vào repository 
+File 1 vẫn còn trên máy file1 ở vùng staging area lúc này không còn
+
+f. Chạy lệnh: git add file
+Báo lỗi vì không có file nào trong thư mục mang tên file 
