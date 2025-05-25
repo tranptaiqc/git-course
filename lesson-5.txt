@@ -1,0 +1,22 @@
+1. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ gì? 
+
+<!DOCTYPE html>: Khai báo giúp trình duyệt hiểu đây là HTML5.
+
+<html>: Thẻ gốc bao bọc toàn bộ nội dung HTML.
+
+<head>: Chứa thông tin data (metadata)
+
+<title>: Tiêu đề hiển thị trên tab trình duyệt.
+
+<body>: Chứa toàn bộ nội dung sẽ hiển thị lên trình duyệt (văn bản, hình ảnh, nút, form...).
+Các thẻ phổ biến bên trong <body>: <h1> đến <h6>, <p>, <a>, <img>, <div>, <span>, <form>, <table>, <ul>, <ol>, <li>, ...
+
+2. Hãy mô tả cấu trúc html của 1 bảng (table) 
+
+Thẻ	            Chức năng
+<table>	        Bao toàn bộ bảng
+<thead>	        Phần đầu bảng, chứa hàng tiêu đề
+<tr>	        Đại diện cho một hàng trong bảng
+<th>	        Tiêu đề cột (in đậm, canh giữa mặc định)
+<tbody>	        Phần thân bảng, chứa dữ liệu chính
+<td>	        Ô dữ liệu trong bảng
